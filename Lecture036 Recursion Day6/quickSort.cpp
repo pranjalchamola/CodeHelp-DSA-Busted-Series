@@ -47,7 +47,7 @@ void quickSort(int arr[], int s, int e) {
     if(s >= e) 
         return ;
 
-    //partitioon karenfe
+    //partitioon karenge
     int p = partition(arr, s, e);
 
     //left part sort karo
